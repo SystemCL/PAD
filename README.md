@@ -12,4 +12,4 @@
 
     5. Program started
 
-####I had used TCP as transfer protocol so all the messages will arrive.####
+####I had used TCP as transfer protocol.####
