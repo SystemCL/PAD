@@ -1,0 +1,9 @@
+function Message (queue, type, message, error) {
+    this.queue = queue;
+    this.type = type;
+    this.text = message;
+    this.error = error;
+}
+module.exports = Message;
+
+
