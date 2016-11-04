@@ -11,7 +11,7 @@ var server = dgram.createSocket({ type: 'udp4', reuseAddr: true });
 
 server.on('listening', function () {
     var address = server.address();
-    console.log('UDP Client listening on ' + address.address + ":" + address.port);
+    console.log('UDP Server listening on ' + address.address + ":" + address.port);
 });
 
 server.on('message', function (message, rinfo) {
